@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FastestClick</string>
+    <string name="keep_going">Continua a cliccare!</string>
+    <string name="game_button_text">Inizia a cliccare</string>
+    <string name="average_text">Media di %1$.2f click/secondo in %2$d secondi</string>
+    <string name="number_of_clicks">numero di click in questo secondo: </string>
+    <string name="best_click_text">Miglior numero di click in un secondo: </string>
+    <string-array name="messages">
+    	<item>Vediamo la tua velocita\' di click! Clicca sul bottone per iniziare.</item>
+    	<item>Nessun pericolo per il mal di polso...</item>
+    	<item>Piu\' veloce! Piu\' veloce!</item>
+    	<item>Non male...</item>
+    	<item>Ci sei quasi...</item>
+    	<item>Stai andando bene...</item>
+    	<item>Stai andando <i>molto</i> bene</item>
+    	<item><i>Molto</i> <i>molto</i> bene!</item>
+    	<item>Compatisco il tuo touchscreen!</item>
+    	<item><i>WOW</i></item>
+    	<item>Argh! Non riesco a starti dietro!</item>
+    	<item>Mi inchino al maestro!</item>
+    	<item> [senza parole] </item>
+    </string-array>
+</resources>
