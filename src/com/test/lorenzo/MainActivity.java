@@ -46,7 +46,7 @@ String[] messages_array;
         
         best_click_view = (TextView)findViewById(R.id.best_clicks);
         
-        debug = (TextView)findViewById(R.id.debug);
+        //debug = (TextView)findViewById(R.id.debug);
         
         messages_array = getResources().getStringArray(R.array.messages);
         messages_view = (TextView)findViewById(R.id.messages);
@@ -63,11 +63,11 @@ String[] messages_array;
 	    	active = true;
 	    	mHandler.removeCallbacks(onTick);
 	    	mHandler.postDelayed(onTick, 1000);
-	    	debug.setText("continue_active: "+continue_active+" active: "+active);
+	    	//debug.setText("continue_active: "+continue_active+" active: "+active);
 	    		
     	}
     	game_button.setText( getString(R.string.keep_going) );
-    	debug.setText("continue_active: "+continue_active+" active: "+active);
+    	//debug.setText("continue_active: "+continue_active+" active: "+active);
     }
     
     private Runnable onTick = new Runnable(){
@@ -77,7 +77,7 @@ String[] messages_array;
 	    		reset = false;
 	    		
     		}
-    		debug.setText("continue_active: "+continue_active+" active: "+active);
+    		//debug.setText("continue_active: "+continue_active+" active: "+active);
     		if( continue_active ){
     			if(click_counter != 0){
 	    			totalSeconds++;
